@@ -23,6 +23,8 @@
   "author": "Masth0 <dev.mastho@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@babel/polyfill": "^7.0.0",
+    "@babel/runtime": "^7.1.2"
     "@babel/cli": "^7.1.2",
     "@babel/core": "^7.1.2",
     "@babel/plugin-transform-runtime": "^7.1.0",
@@ -50,9 +52,5 @@
   ],
   "publishConfig": {
     "access": "public"
-  },
-  "dependencies": {
-    "@babel/polyfill": "^7.0.0",
-    "@babel/runtime": "^7.1.2"
   }
 }
